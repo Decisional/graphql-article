@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Decisional\GraphQL\GraphqlArticle\DataObject;
 
 use OxidEsales\Eshop\Application\Model\Article as ArticleEshopModel;
