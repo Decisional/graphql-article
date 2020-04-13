@@ -15,12 +15,12 @@ $sMetadataVersion = '2.0';
 $aModule = [
     'id'          => 'decisional/graphql-article',
     'title'       => 'GraphQL GraphqlArticle',
-    'description' =>  '',
+    'description' =>  'Module providing GraphQL queries and Mutations regarding the article entity',
     'thumbnail'   => 'out/pictures/logo.png',
-    'version'     => '0.0.1',
+    'version'     => '0.1.0',
     'author'      => 'Decisional',
-    'url'         => '',
-    'email'       => '',
+    'url'         => 'keiser.co',
+    'email'       => 'linus@keiser.co',
     'extend'      => [
     ],
     'controllers' => [
