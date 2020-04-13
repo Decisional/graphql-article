@@ -16,10 +16,6 @@ class Article
      * query article by ID
      *
      * @Query()
-     *
-     * @param string $id
-     * @return ArticleDataObject
-     * @throws ArticleNotFound
      */
     public function article(string $id): ArticleDataObject
     {
