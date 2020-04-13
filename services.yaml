@@ -1,0 +1,13 @@
+services:
+
+  _defaults:
+    public: false
+    autowire: true
+
+  Decisional\GraphQL\GraphqlArticle\Controller\:
+    resource: 'src/Controller/*'
+    public: true
+
+  Decisional\GraphQL\GraphqlArticle\Framework\NamespaceMapper:
+    class: Decisional\GraphQL\GraphqlArticle\Framework\NamespaceMapper
+    tags: ['graphql_namespace_mapper']
