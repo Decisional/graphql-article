@@ -10,9 +10,6 @@ use TheCodingMachine\GraphQLite\Annotations\Type;
 use TheCodingMachine\GraphQLite\Types\ID;
 
 /**
- * Class Article
- * @package Decisional\GraphQL\GraphqlArticle\DataObject
- *
  * @Type()
  */
 class Article
@@ -27,7 +24,7 @@ class Article
     }
 
     /**
-     * @Field()
+     * @Field
      */
     public function getId(): ID
     {
@@ -37,7 +34,7 @@ class Article
     }
 
     /**
-     * @Field()
+     * @Field
      */
     public function getStock(): float
     {
