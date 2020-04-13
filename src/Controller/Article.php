@@ -7,10 +7,20 @@ namespace Decisional\GraphQL\GraphqlArticle\Controller;
 use Decisional\GraphQL\GraphqlArticle\DataObject\Article as ArticleDataObject;
 use Decisional\GraphQL\GraphqlArticle\Exception\ArticleNotFound;
 use OxidEsales\Eshop\Application\Model\Article as ArticleEshopModel;
+use TheCodingMachine\GraphQLite\Annotations\Query;
 
 class Article
 {
 
+    /**
+     * query article by ID
+     *
+     * @Query()
+     *
+     * @param string $id
+     * @return ArticleDataObject
+     * @throws ArticleNotFound
+     */
     public function article(string $id): ArticleDataObject
     {
         /**  @var ArticleEshopModel */
